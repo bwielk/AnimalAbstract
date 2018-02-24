@@ -6,7 +6,7 @@ public class Ostrich extends Bird {
 	}
 
 	public void fly() {
+		super.fly();
 		System.out.println(getName() + " is not very good at flying");
 	}
-
 }
