@@ -6,10 +6,10 @@ public class Dog extends Animal{
 	}
 	
 	public void eat(){
-		System.out.println(getName() + "is eating");
+		System.out.println(getName() + " dog is eating");
 	}
 	
 	public void breathe(){
-		System.out.println(getName() + "is breathing");
+		System.out.println(getName() + " dog is breathing");
 	}
 }
